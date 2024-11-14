@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", serif;
+}
+
+.divider {
+    height: 1rem;
+    width: 97%;
+    border-bottom: 0.1rem solid #c8ccd0;
+    margin: 0 auto;    }
+
+header {
+    width: 56.4rem;
+    height: 50rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+header .title {
+    margin: 4.8rem 0 3.2rem;
+    text-align: center;
+}
+
+header .world-logo {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18rem; 
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto 0.7rem;
+}
+
+header .world-logo .levels {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .world-logo .levels{
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+header .world-logo .idioms-container {
+    width: 15.645rem ; 
+    height: 4.53rem ;
+    text-align: center;
+}
+
+header .world-logo .idioms-container:hover {
+    background-color: #eaecf0;
+    cursor: pointer;
+}
+
+header .world-logo .idioms-container:hover .idiom {
+    text-decoration: underline;
+}
+
+header .levels div .idiom {
+    font-size: 1.4rem;
+    color: rgb(51, 104, 208);
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+
+header .levels div .articles {
+    font-size: 1.2rem;
+    color: #54595d;
+    font-family: "Poppins";
+
+}
+
+header .boxes-1st-row,
+header .boxes-5th-row {
+    padding: 0 8rem;
+}
+
+header .boxes-2nd-row,
+header .boxes-4th-row {
+    padding: 0 4rem;
+}
+
+header .boxes-3rd-row {
+    padding: 0 2rem;
+}
+
+header .input-translate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .input-translate .search-bar {
+    width: 80%;
+    height: 4rem;
+    border: 0.1rem solid rgb(162, 169, 177);
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+header .input-translate .search-bar .search-input,
+header .input-translate .search-bar .search-select,
+header .input-translate .search-bar .search-button {
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .input-translate .search-bar .search-input {
+    flex: 1 87%;
+    padding: 0.8rem 6.1rem 0.8rem 1.2rem;
+}
+
+header .input-translate .search-bar .search-button {
+    flex: 1 13%;
+    background-color: rgb(51, 102, 204);
+}
+
+header .input-translate .search-bar .search-button:hover {
+    flex: 1 13%;
+    background-color: #447ff5;
+    cursor: pointer;
+}
+
+
+header .input-translate .search-bar .search-select {
+    border: none;
+    height: 2rem;
+    position: absolute;
+    left: 75%;
+    width: 10%;
+    color: #54595d;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+header .input-translate .search-bar .search-select:hover {
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
+
+header .input-translate .translate-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem auto 0;
+    width: 90%;
+    padding: 0;
+}
+
+header .input-translate .translate-button-container .translate-button{
+    display: flex;
+    align-items: center;
+    color: rgb(51, 102, 204);
+    font-weight: bold;
+    border: 0.1rem solid rgb(162, 169, 177);
+    background-color: #f8f9fa;
+    justify-content: space-between;
+    width: 54%;
+    padding: 0.3rem 1rem;
+    font-size: 1.3rem;
+
+}
+
+header .input-translate .translate-button-container .translate-button:hover {
+    background-color: white;
+    cursor: pointer;
+
+}
+
+header .input-translate .translate-button-container .little-bar {
+    width: 10%;
+    height: 100%;
+    padding: 0 0.5rem;
+}
+
+header .input-translate .translate-button-container .little-bar .little-bar__bottom-margin {
+    width: 100%;
+    height: 1.6rem;
+    border-bottom: 0.1rem solid rgb(162, 169, 177);
+}
+
+main {
+    padding: 4.16rem 1.28rem 0;
+    width: 100rem;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+main .info-and-apps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+main .info-and-apps .info-and-apps__wiki-foundation,
+main .info-and-apps .app-download {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+main .info-and-apps .logo-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: auto;
+}
+
+
+main .info-and-apps .info-and-apps__wiki-foundation {
+    flex: 0 1 100%;
+    height: 11.8rem;
+    order: 1;
+    padding: 0 1rem;
+}
+
+.info-and-apps__wiki-foundation--logo,
+.app-download .app-download__logo{
+    flex: 0 1 12%;
+    height: auto;
+}
+
+.info-and-apps__wiki-foundation p {
+    flex: 0 1 82%;
+    padding-left: 1rem;
+    height: auto;
+    display: inline-block;
+    font-family: "Poppins";
+    color: #54595d;
+    font-size: 1.1rem;
+
+}
+
+.info-and-apps__wiki-foundation p a {
+    text-decoration: none;
+    color: rgb(51, 102, 204);
+}
+
+.info-and-apps__wiki-foundation p a:hover {
+    text-decoration: underline;
+}
+
+main .info-and-apps .app-download {
+    flex: 0 1 100%;
+    order: 3;
+    align-self: flex-start;
+    padding: 1rem;
+    display: flex;
+    margin: 1rem;
+    background-color: #f8f9fa;
+
+}
+
+.app-download .app-download__app-links {
+    flex: 0 1 82%;
+    height: auto;
+    display: inline-block;
+    font-family: "Poppins";
+    color: #54595d;
+    font-size: 1.1rem;
+    background-color: #f8f9fa;
+}
+
+.app-download .app-download__app-markets {
+    display: flex;
+    width: 300px;
+}
+
+.app-download .app-download__app-markets div:hover {
+    cursor: pointer;
+}
+
+.app-download .app-download__app-links .subtitle{
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.app-download .app-download__app-links .text {
+    margin: 1.3rem 0;
+    padding-left: 1rem;
+
+}
+
+main .info-and-apps .wiki-access {
+    flex: 0 1 70%;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    font-size: 1.1rem;
+    margin-left: auto;
+}
+
+main .info-and-apps .wiki-access .wiki-access__card {
+    flex: 0 1 33%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    color: #54595d;
+    margin: 1.2rem 0;
+    padding: 0 0.5rem;
+}
+
+.wiki-access__card-text--subtitle {
+    color: rgb(51, 102, 204);
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
+
+.wiki-access__card-text--text {
+    padding-left: 0.5rem;
+}
+
+main .info-and-apps .wiki-access .wiki-access__card:hover {
+    background-color: #eaecf0;
+    cursor: pointer;
+}
+
+.apple-store, 
+.play-store {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#meta-wiki {
+    justify-self: flex-start;
+}
+
+footer p {
+    margin: 1.3rem auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(51, 102, 204);
+}
+
+footer .to-divide::after{
+    content: "\2022";
+    display: inline-block;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: inherit;
+    margin-left: .8rem;
+    margin-right: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
